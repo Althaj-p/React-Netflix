@@ -16,7 +16,18 @@
 
 
 .poster{
+    cursor:pointer;
     max-height: 250px;
     margin-right: 10px;
 
+}
+.smallPoster{
+    max-height:130px;
+    margin-right:10px;
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+.smallPoster:hover{
+    transform:scale(1.1)
 }
